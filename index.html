@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot</title>
+    <title>ChatGPT Clone</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="chat-container">
         <div class="chat-header">
-            Chatbot
+            <div class="chat-title">ChatGPT Clone</div>
+            <div class="menu">
+                <button id="menu-button">Menu</button>
+                <ul id="menu-list">
+                    <li><a href="#">Chat from Yesterday</a></li>
+                    <li><a href="#">Chat from Last Week</a></li>
+                    <li><a href="#">Chat from Last Month</a></li>
+                </ul>
+            </div>
         </div>
         <div class="chat-log" id="chat-log">
-            <div class="chat-message user-message">Hello!</div>
             <div class="chat-message bot-message">Hi there! How can I assist you today?</div>
         </div>
         <div class="chat-input">
